@@ -1,0 +1,3221 @@
+---------------------------------------------------------------
+[ 2018-05-30T16:28:50+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.712146s][吞吐率：1.40req/s] [内存消耗：3,285.72kb] [文件加载：55]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=14',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001520s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000611s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.001006s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000262s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000662s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000304s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000740s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000294s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000266s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:14+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.086310s][吞吐率：11.59req/s] [内存消耗：3,098.28kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=15',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001006s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001564s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000645s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000748s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000419s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001127s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000433s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:36+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.070331s][吞吐率：14.22req/s] [内存消耗：3,097.73kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001280s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000625s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000360s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:41+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.080646s][吞吐率：12.40req/s] [内存消耗：3,098.17kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000930s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001456s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000735s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000816s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000756s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000460s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000450s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:53+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.075424s][吞吐率：13.26req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000927s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001225s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000606s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000348s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000390s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000394s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000796s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000401s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000352s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:54+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066339s][吞吐率：15.07req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000917s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001215s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000639s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000375s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000316s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001041s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000359s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:55+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066468s][吞吐率：15.04req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000897s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001204s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000643s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000346s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001076s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000438s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000366s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:29:55+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.071976s][吞吐率：13.89req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001666s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000747s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000354s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000760s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000581s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000846s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:30:01+08:00 ] ::1 ::1 GET /Blog/public/index.php/Admin/Index/login
+[ info ] localhost/Blog/public/index.php/Admin/Index/login [运行时间：0.048898s][吞吐率：20.45req/s] [内存消耗：2,095.45kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\index\login.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-30T16:30:02+08:00 ] ::1 ::1 POST /Blog/public/index.php/Admin/Index/login
+[ info ] localhost/Blog/public/index.php/Admin/Index/login [运行时间：0.076345s][吞吐率：13.10req/s] [内存消耗：2,959.78kb] [文件加载：54]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'login',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '49',
+  'cache-control' => 'max-age=0',
+  'origin' => 'http://localhost',
+  'upgrade-insecure-requests' => '1',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blog/public/index.php/Admin/Index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'name' => '叫我大王',
+  'pwd' => '321',
+)
+[ info ] [ RUN ] app\admin\controller\Index->login[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\Index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000929s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.003979s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `admin_name` = '叫我大王'  AND `admin_pwd` = '321' [ RunTime:0.000690s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:30:02+08:00 ] ::1 ::1 GET /Blog/public/index.php/Admin/Index/top.html
+[ info ] localhost/Blog/public/index.php/Admin/Index/top.html [运行时间：0.101381s][吞吐率：9.86req/s] [内存消耗：2,098.71kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blog/public/index.php/Admin/Index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ SESSION ] INIT array (
+  'id' => '',
+  'var_session_id' => '',
+  'prefix' => 'think',
+  'type' => '',
+  'auto_start' => true,
+)
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\index\top.html [ array (
+  0 => 'name',
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-30T16:30:02+08:00 ] ::1 ::1 GET /Blog/public/index.php/Admin/Index/main.html
+[ info ] localhost/Blog/public/index.php/Admin/Index/main.html [运行时间：0.104048s][吞吐率：9.61req/s] [内存消耗：2,095.78kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blog/public/index.php/Admin/Index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-30T16:30:02+08:00 ] ::1 ::1 GET /Blog/public/index.php/Admin/Index/bar.html
+[ info ] localhost/Blog/public/index.php/Admin/Index/bar.html [运行时间：0.107782s][吞吐率：9.28req/s] [内存消耗：2,098.96kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'bar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blog/public/index.php/Admin/Index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->bar[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\index\bar.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-30T16:30:02+08:00 ] ::1 ::1 GET /Blog/public/index.php/Admin/Index/menu.html
+[ info ] localhost/Blog/public/index.php/Admin/Index/menu.html [运行时间：0.112866s][吞吐率：8.86req/s] [内存消耗：2,098.76kb] [文件加载：47]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blog/public/index.php/Admin/Index/login',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ E:\wamp\www\Blog\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2018-05-30T16:31:41+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.080261s][吞吐率：12.46req/s] [内存消耗：3,097.24kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.008797s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001562s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000667s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000844s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001138s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000439s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:44+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.063667s][吞吐率：15.71req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000944s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001235s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000697s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:45+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.063259s][吞吐率：15.81req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000936s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001251s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.001155s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000729s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000870s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000434s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000552s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000671s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:46+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066309s][吞吐率：15.08req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000905s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001210s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.001175s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000858s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000830s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000631s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000503s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000782s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000404s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000308s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:46+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.071875s][吞吐率：13.91req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000937s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.002205s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000789s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.001148s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000761s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000312s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000317s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000688s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000383s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000369s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:46+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.068021s][吞吐率：14.70req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001789s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000908s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000661s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000417s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000640s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000339s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000326s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:47+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.064163s][吞吐率：15.59req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000926s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001207s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000592s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000726s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000314s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000647s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000680s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000413s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:47+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.064647s][吞吐率：15.47req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000806s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001065s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000472s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000653s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000366s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000268s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000220s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000218s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000538s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000247s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:47+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.067621s][吞吐率：14.79req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000889s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001142s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.001245s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000315s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000451s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000328s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:55+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.070887s][吞吐率：14.11req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001116s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001255s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000684s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000906s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000378s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.001290s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000435s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000767s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000330s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:56+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.069160s][吞吐率：14.46req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001366s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001257s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000777s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000517s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000441s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000393s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000750s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:56+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066404s][吞吐率：15.06req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001186s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000605s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000297s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000617s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000356s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000462s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000386s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000703s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000337s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:56+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.069805s][吞吐率：14.33req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000959s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001241s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000616s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000759s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000280s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000805s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000518s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000311s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000657s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000329s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000315s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:56+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066401s][吞吐率：15.06req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000961s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001302s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000822s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000402s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000361s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000349s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000692s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000389s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000385s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:57+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.068151s][吞吐率：14.67req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000973s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001247s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000763s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000254s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000621s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000307s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000267s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000649s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000325s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:57+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.076047s][吞吐率：13.15req/s] [内存消耗：3,097.80kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000840s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001239s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000537s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000210s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000582s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000260s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000343s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000290s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000725s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000261s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000238s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:31:59+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.070195s][吞吐率：14.25req/s] [内存消耗：3,097.59kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000911s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001281s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000635s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000710s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000437s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000379s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000720s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000424s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:01+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.064668s][吞吐率：15.46req/s] [内存消耗：3,097.24kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001040s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001973s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000733s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000736s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000442s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000443s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000739s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000377s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:11+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.058942s][吞吐率：16.97req/s] [内存消耗：3,098.00kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=16',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000910s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001598s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000719s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000344s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000676s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000421s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000716s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:12+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.061251s][吞吐率：16.33req/s] [内存消耗：3,098.28kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=17',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001178s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000658s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000744s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000278s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000332s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000298s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000409s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000371s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:12+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.072700s][吞吐率：13.76req/s] [内存消耗：3,098.28kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=18',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000815s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001973s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000244s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000624s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000681s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000335s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000281s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000638s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000291s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000260s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:12+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.079767s][吞吐率：12.54req/s] [内存消耗：3,098.28kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, sdch, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+  'cookie' => '__guid=111872281.4356579289174680600.1527667992971.403; monitor_count=19',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001516s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001705s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000855s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000901s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.001266s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000487s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000544s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000458s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000907s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000999s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000441s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:32:15+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.068881s][吞吐率：14.52req/s] [内存消耗：3,098.17kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000969s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001932s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000792s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.001054s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000336s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000693s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000376s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000371s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000381s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000655s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000318s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:38:37+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.068196s][吞吐率：14.66req/s] [内存消耗：3,097.52kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001133s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001377s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000626s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000773s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000334s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000628s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000392s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000363s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000367s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:38:42+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.067517s][吞吐率：14.81req/s] [内存消耗：3,097.89kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000983s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001265s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000630s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000751s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.001137s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000403s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000357s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000350s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001128s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000424s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:38:44+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.066541s][吞吐率：15.03req/s] [内存消耗：3,097.89kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'cache-control' => 'max-age=0',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000934s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001348s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000670s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000446s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000439s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000753s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000372s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000427s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:40:54+08:00 ] ::1 ::1 GET /Blog/public/index.php/Index/index
+[ info ] localhost/Blog/public/index.php/Index/index [运行时间：0.081181s][吞吐率：12.32req/s] [内存消耗：3,097.73kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blog\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:60.0) Gecko/20100101 Firefox/60.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'pragma' => 'no-cache',
+  'cache-control' => 'no-cache',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blog\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blog\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000915s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001269s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000738s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000752s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000418s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000345s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001585s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000377s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000391s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index
+[ info ] localhost/Blogs/public/index.php/Index/index [运行时间：0.119320s][吞吐率：8.38req/s] [内存消耗：3,286.06kb] [文件加载：55]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001376s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000604s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000787s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000303s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000514s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000406s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000396s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001019s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000492s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000412s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:25+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index/fenlei?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_qian [运行时间：0.110467s][吞吐率：9.05req/s] [内存消耗：3,267.73kb] [文件加载：58]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'fenlei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\index\controller\Index->fenlei[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\fenlei.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'biao',
+  7 => 'Info',
+  8 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000873s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000895s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article_qian` LIMIT 1 [ RunTime:0.000380s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` LIMIT 0,5 [ RunTime:0.000431s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000702s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000741s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000388s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000430s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000410s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000769s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000355s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:26+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index/fenlei?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_php [运行时间：0.082512s][吞吐率：12.12req/s] [内存消耗：3,119.96kb] [文件加载：56]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'fenlei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_qian',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\index\controller\Index->fenlei[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\fenlei.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'biao',
+  7 => 'Info',
+  8 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000891s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.001051s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article_php` LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` LIMIT 0,5 [ RunTime:0.000400s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000636s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000660s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000324s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000718s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000359s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000362s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000347s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000319s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index/fenlei?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_mysql [运行时间：0.085198s][吞吐率：11.74req/s] [内存消耗：3,089.47kb] [文件加载：56]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'fenlei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\index\controller\Index->fenlei[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\fenlei.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'biao',
+  7 => 'Info',
+  8 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000927s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.001080s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article_mysql` LIMIT 1 [ RunTime:0.000282s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` LIMIT 0,5 [ RunTime:0.000456s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.001013s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000764s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000341s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000698s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000427s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000342s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000664s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000340s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index/fenlei?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_linux [运行时间：0.087539s][吞吐率：11.42req/s] [内存消耗：3,094.45kb] [文件加载：56]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'fenlei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_mysql',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\index\controller\Index->fenlei[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\fenlei.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'biao',
+  7 => 'Info',
+  8 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000883s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.000828s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article_linux` LIMIT 1 [ RunTime:0.000338s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` LIMIT 0,5 [ RunTime:0.000351s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000668s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000642s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000327s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000690s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000399s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000397s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000691s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000398s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000362s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:28+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index/fenlei?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_qian [运行时间：0.083591s][吞吐率：11.96req/s] [内存消耗：3,088.56kb] [文件加载：56]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => 'fenlei',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_linux',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\index\controller\Index->fenlei[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\fenlei.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'biao',
+  7 => 'Info',
+  8 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000919s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000848s ]
+[ sql ] [ SQL ] SELECT COUNT(*) AS tp_count FROM `article_qian` LIMIT 1 [ RunTime:0.000352s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` LIMIT 0,5 [ RunTime:0.000374s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000637s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000699s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000330s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000387s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000340s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000333s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000728s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000449s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2018-05-30T16:41:29+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Index/index
+[ info ] localhost/Blogs/public/index.php/Index/index [运行时间：0.083304s][吞吐率：12.00req/s] [内存消耗：3,098.57kb] [文件加载：53]
+[ info ] [ LANG ] E:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Index',
+    1 => 'index',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/66.0.3359.139 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Index/index/fenlei?biao=article_qian',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.9',
+  'cookie' => 'PHPSESSID=4j1ap2r4qrvk4gtnl1rnecqvp0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\index\controller\Index->index[ E:\wamp\www\Blogs\application\index\controller\Index.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] E:\wamp\www\Blogs\public/../application/index\view\index\index.html [ array (
+  0 => 'tui0',
+  1 => 'tui1',
+  2 => 'tui2',
+  3 => 'tui3',
+  4 => 'tui4',
+  5 => 'tuij',
+  6 => 'Info',
+  7 => 'click',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000895s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] select id ,arti_title,ad_time,arti_contents,clicksum,lei from article_php
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_qian
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_linux
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_mysql
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_blog
+                          UNION ALL 
+                          select id ,arti_title,ad_time,arti_contents ,clicksum,lei from article_zatan
+                          ORDER BY ad_time DESC limit 5 [ RunTime:0.001181s ]
+[ sql ] [ SQL ] select id,arti_title,clicksum,lei from article_php
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_qian
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_linux
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_mysql
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_blog
+                          UNION ALL
+                          select id,arti_title,clicksum,lei from article_zatan
+                          ORDER BY clicksum DESC limit 5 [ RunTime:0.000634s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `tuijian` [ RunTime:0.000802s ]
+[ sql ] [ SQL ] SELECT * FROM `tuijian` LIMIT 5 [ RunTime:0.000368s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.000712s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000412s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000385s ]
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.000686s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000384s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000347s ]

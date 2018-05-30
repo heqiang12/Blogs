@@ -1,0 +1,3109 @@
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/index
+[ info ] localhost/Blogs/public/index.php/Admin/Index/index [运行时间：0.032314s][吞吐率：30.95req/s] [内存消耗：1,869.08kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/top.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/top.html [运行时间：0.036740s][吞吐率：27.22req/s] [内存消耗：1,869.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/menu.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/menu.html [运行时间：0.036141s][吞吐率：27.67req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/main.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/main.html [运行时间：0.036345s][吞吐率：27.51req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/bar.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/bar.html [运行时间：0.070215s][吞吐率：14.24req/s] [内存消耗：1,869.49kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'bar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->bar[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\bar.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.033919s][吞吐率：29.48req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.032519s][吞吐率：30.75req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_right.gif
+[ info ] localhost/Blogs/public/static/imagearrow_right.gif [运行时间：0.032179s][吞吐率：31.08req/s] [内存消耗：1,633.60kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_right.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_left.gif
+[ info ] localhost/Blogs/public/static/imagearrow_left.gif [运行时间：0.055322s][吞吐率：18.08req/s] [内存消耗：1,633.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_left.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.033078s][吞吐率：30.23req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:27+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.033157s][吞吐率：30.16req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:30+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.072526s][吞吐率：13.79req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001145s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.037652s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000298s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:30+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.031059s][吞吐率：32.20req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:31+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.064330s][吞吐率：15.54req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.029092s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000386s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:31+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.020281s][吞吐率：49.31req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T15:33:32+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql [运行时间：0.068433s][吞吐率：14.61req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000896s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.038528s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:33+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.074108s][吞吐率：13.49req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000846s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.044692s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:33+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan [运行时间：0.070958s][吞吐率：14.09req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_zatan',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000876s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_zatan` [ RunTime:0.042515s ]
+[ sql ] [ SQL ] SELECT * FROM `article_zatan` [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:34+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.149646s][吞吐率：6.68req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.119232s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:34+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.036149s][吞吐率：27.66req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001283s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.006747s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000355s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:38+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.038927s][吞吐率：25.69req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.006400s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:40+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.035379s][吞吐率：28.27req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000884s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.006153s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000285s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:40+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.039625s][吞吐率：25.24req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000979s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.007167s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000404s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:42+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_cha?id=2&biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_cha?id=2&biao=article_php [运行时间：0.036666s][吞吐率：27.27req/s] [内存消耗：2,991.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_cha.html [ array (
+  0 => 'Info',
+  1 => 'text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.006876s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000409s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:43+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.037030s][吞吐率：27.00req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001020s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.006839s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000411s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_cha?id=3&biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_cha?id=3&biao=article_php [运行时间：0.037580s][吞吐率：26.61req/s] [内存消耗：3,012.26kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '3',
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_cha.html [ array (
+  0 => 'Info',
+  1 => 'text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.007345s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 3 LIMIT 1 [ RunTime:0.000428s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:49+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.036526s][吞吐率：27.38req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000882s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.006749s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000376s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:52+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_cha?id=1&biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_cha?id=1&biao=article_qian [运行时间：0.037172s][吞吐率：26.90req/s] [内存消耗：2,991.91kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_cha.html [ array (
+  0 => 'Info',
+  1 => 'text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000831s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.007467s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000333s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:33:57+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.035830s][吞吐率：27.91req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000867s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.006861s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2017-12-19T15:34:02+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.083046s][吞吐率：12.04req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000810s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.053138s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000407s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/index
+[ info ] localhost/Blogs/public/index.php/Admin/Index/index [运行时间：0.023978s][吞吐率：41.70req/s] [内存消耗：1,869.09kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/top.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/top.html [运行时间：0.032043s][吞吐率：31.21req/s] [内存消耗：1,869.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/bar.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/bar.html [运行时间：0.040018s][吞吐率：24.99req/s] [内存消耗：1,869.49kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'bar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->bar[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\bar.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/main.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/main.html [运行时间：0.038147s][吞吐率：26.21req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/menu.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/menu.html [运行时间：0.056464s][吞吐率：17.71req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.032007s][吞吐率：31.24req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_left.gif
+[ info ] localhost/Blogs/public/static/imagearrow_left.gif [运行时间：0.035847s][吞吐率：27.90req/s] [内存消耗：1,633.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_left.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_right.gif
+[ info ] localhost/Blogs/public/static/imagearrow_right.gif [运行时间：0.032944s][吞吐率：30.35req/s] [内存消耗：1,633.59kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_right.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:12+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.032347s][吞吐率：30.91req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:13+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.023984s][吞吐率：41.69req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:14+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/add_article
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/add_article [运行时间：0.024136s][吞吐率：41.43req/s] [内存消耗：1,950.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'add_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->add_article[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\add_article.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:14+08:00 ] ::1 ::1 GET /Blogs/public/static/images/loading.gif
+[ info ] localhost/Blogs/public/static/images/loading.gif [运行时间：0.030684s][吞吐率：32.59req/s] [内存消耗：1,633.61kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/editormd.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:14+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.035442s][吞吐率：28.22req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:08:51+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.093606s][吞吐率：10.68req/s] [内存消耗：2,808.30kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006154s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.054664s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000408s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:08:57+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_cha?id=1&biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_cha?id=1&biao=article_qian [运行时间：0.035241s][吞吐率：28.38req/s] [内存消耗：2,991.91kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '1',
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_cha.html [ array (
+  0 => 'Info',
+  1 => 'text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000823s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003613s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000444s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:09:16+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.032496s][吞吐率：30.77req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000942s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003520s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000375s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:09:17+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.034475s][吞吐率：29.01req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000889s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.004023s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000465s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:09:58+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_cha?id=2&biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_cha?id=2&biao=article_php [运行时间：0.034096s][吞吐率：29.33req/s] [内存消耗：2,991.80kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'id' => '2',
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_cha.html [ array (
+  0 => 'Info',
+  1 => 'text',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000849s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.003950s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000406s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:01+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql [运行时间：0.084648s][吞吐率：11.81req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.052502s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:01+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.056080s][吞吐率：17.83req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000924s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.025783s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:02+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.085229s][吞吐率：11.73req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000841s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.054895s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000363s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:02+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.035667s][吞吐率：28.04req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000886s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.004172s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000338s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:03+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.033126s][吞吐率：30.19req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000820s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003650s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000349s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:03+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.034382s][吞吐率：29.08req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001032s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003855s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000378s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:03+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql [运行时间：0.035784s][吞吐率：27.95req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001395s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.003820s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` [ RunTime:0.000320s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:04+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.035688s][吞吐率：28.02req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001449s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.003866s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000353s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:04+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan [运行时间：0.077590s][吞吐率：12.89req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_zatan',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000894s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_zatan` [ RunTime:0.046441s ]
+[ sql ] [ SQL ] SELECT * FROM `article_zatan` [ RunTime:0.000321s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:04+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.038025s][吞吐率：26.30req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000925s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.003570s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:05+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.033831s][吞吐率：29.56req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000839s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003912s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000341s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:05+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql [运行时间：0.034438s][吞吐率：29.04req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000822s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.003994s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` [ RunTime:0.000372s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:05+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.035610s][吞吐率：28.08req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.004106s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000345s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:06+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan [运行时间：0.033332s][吞吐率：30.00req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_zatan',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000871s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_zatan` [ RunTime:0.004155s ]
+[ sql ] [ SQL ] SELECT * FROM `article_zatan` [ RunTime:0.000357s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:06+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.034343s][吞吐率：29.12req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000834s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.004429s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000360s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:06+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.035692s][吞吐率：28.02req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000948s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.003753s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000351s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:06+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.035160s][吞吐率：28.44req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000879s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.003778s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000481s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:07+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.033402s][吞吐率：29.94req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000861s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003793s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000373s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:07+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_php
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_php [运行时间：0.034678s][吞吐率：28.84req/s] [内存消耗：2,819.70kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_php',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000837s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_php` [ RunTime:0.003590s ]
+[ sql ] [ SQL ] SELECT * FROM `article_php` [ RunTime:0.000499s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:07+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_linux [运行时间：0.035747s][吞吐率：27.97req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_linux',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000784s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_linux` [ RunTime:0.004405s ]
+[ sql ] [ SQL ] SELECT * FROM `article_linux` [ RunTime:0.000342s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:07+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.037092s][吞吐率：26.96req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000854s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.003529s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000350s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:08+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan [运行时间：0.036039s][吞吐率：27.75req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_zatan',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000982s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_zatan` [ RunTime:0.004373s ]
+[ sql ] [ SQL ] SELECT * FROM `article_zatan` [ RunTime:0.000423s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:09+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/privilege
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/privilege [运行时间：0.086653s][吞吐率：11.54req/s] [内存消耗：2,888.06kb] [文件加载：53]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'privilege',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->privilege[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\privilege.html [ array (
+  0 => 'info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000830s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.030105s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` [ RunTime:0.000417s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:09+08:00 ] ::1 ::1 POST /Blogs/public/index.php/admin/admin/privilege_cha.html
+[ info ] localhost/Blogs/public/index.php/admin/admin/privilege_cha.html [运行时间：0.039148s][吞吐率：25.54req/s] [内存消耗：2,806.32kb] [文件加载：51]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'admin',
+    1 => 'admin',
+    2 => 'privilege_cha',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'content-length' => '6',
+  'accept' => 'application/json, text/javascript, */*; q=0.01',
+  'origin' => 'http://localhost',
+  'x-requested-with' => 'XMLHttpRequest',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'content-type' => 'application/x-www-form-urlencoded; charset=UTF-8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Admin/privilege',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'data' => '1',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->privilege_cha[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000795s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `admin` [ RunTime:0.003888s ]
+[ sql ] [ SQL ] SELECT * FROM `admin` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.000448s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:10+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/add_user
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/add_user [运行时间：0.035374s][吞吐率：28.27req/s] [内存消耗：2,024.24kb] [文件加载：46]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'add_user',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->add_user[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\add_user.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:10+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.023660s][吞吐率：42.27req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:10+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.033925s][吞吐率：29.48req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000799s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003644s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000304s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:11+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/main.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/main.html [运行时间：0.019929s][吞吐率：50.18req/s] [内存消耗：1,869.57kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:11+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.022430s][吞吐率：44.58req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:11+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.033607s][吞吐率：29.76req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000855s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.003797s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000336s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/index
+[ info ] localhost/Blogs/public/index.php/Admin/Index/index [运行时间：0.025364s][吞吐率：39.43req/s] [内存消耗：1,869.09kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'index',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->index[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\index.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/top.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/top.html [运行时间：0.035131s][吞吐率：28.46req/s] [内存消耗：1,869.53kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'top',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->top[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\top.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/menu.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/menu.html [运行时间：0.041548s][吞吐率：24.07req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'menu',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->menu[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\menu.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/bar.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/bar.html [运行时间：0.040553s][吞吐率：24.66req/s] [内存消耗：1,869.49kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'bar',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->bar[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\bar.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/main.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/main.html [运行时间：0.039637s][吞吐率：25.23req/s] [内存消耗：1,869.52kb] [文件加载：43]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'main',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/index',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\admin\controller\Index->main[ D:\wamp\www\Blogs\application\admin\controller\Index.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\index\main.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.036068s][吞吐率：27.73req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_left.gif
+[ info ] localhost/Blogs/public/static/imagearrow_left.gif [运行时间：0.037571s][吞吐率：26.62req/s] [内存消耗：1,633.62kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_left.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/imagearrow_right.gif
+[ info ] localhost/Blogs/public/static/imagearrow_right.gif [运行时间：0.032198s][吞吐率：31.06req/s] [内存消耗：1,633.59kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'imagearrow_right.gif',
+    2 => NULL,
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/bar.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.031927s][吞吐率：31.32req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/js/eject.js
+[ info ] localhost/Blogs/public/static/js/eject.js [运行时间：0.029215s][吞吐率：34.23req/s] [内存消耗：1,633.49kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'js',
+    2 => 'eject.js',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => '*/*',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/main.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:45+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.026606s][吞吐率：37.59req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:48+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/add_article
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/add_article [运行时间：0.021898s][吞吐率：45.67req/s] [内存消耗：1,950.82kb] [文件加载：45]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'add_article',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->add_article[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\add_article.html [ array (
+) ]
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:48+08:00 ] ::1 ::1 GET /Blogs/public/static/images/admin_bg.png
+[ info ] localhost/Blogs/public/static/images/admin_bg.png [运行时间：0.031511s][吞吐率：31.73req/s] [内存消耗：1,633.70kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'admin_bg.png',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/adminStyle.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:48+08:00 ] ::1 ::1 GET /Blogs/public/static/images/loading.gif
+[ info ] localhost/Blogs/public/static/images/loading.gif [运行时间：0.031196s][吞吐率：32.06req/s] [内存消耗：1,633.61kb] [文件加载：39]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'static',
+    1 => 'images',
+    2 => 'loading.gif',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'image/webp,image/apng,image/*,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/static/css/editormd.css',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:10:54+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Index/admin_list.html
+[ info ] localhost/Blogs/public/index.php/Admin/Index/admin_list.html [运行时间：0.022127s][吞吐率：45.19req/s] [内存消耗：1,638.70kb] [文件加载：40]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Index',
+    2 => 'admin_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/top.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ LOG ] INIT File
+---------------------------------------------------------------
+[ 2017-12-19T18:11:07+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_zatan [运行时间：0.103052s][吞吐率：9.70req/s] [内存消耗：2,807.62kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_zatan',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.006039s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_zatan` [ RunTime:0.065237s ]
+[ sql ] [ SQL ] SELECT * FROM `article_zatan` [ RunTime:0.000356s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:11:08+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_blog [运行时间：0.065974s][吞吐率：15.16req/s] [内存消耗：2,807.45kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_blog',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000851s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_blog` [ RunTime:0.036779s ]
+[ sql ] [ SQL ] SELECT * FROM `article_blog` [ RunTime:0.000334s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:11:09+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_mysql [运行时间：0.089981s][吞吐率：11.11req/s] [内存消耗：2,807.55kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_mysql',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000907s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_mysql` [ RunTime:0.059814s ]
+[ sql ] [ SQL ] SELECT * FROM `article_mysql` [ RunTime:0.000331s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:11:09+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.082864s][吞吐率：12.07req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000923s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.053271s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000289s ]
+---------------------------------------------------------------
+[ 2017-12-19T18:11:11+08:00 ] ::1 ::1 GET /Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian
+[ info ] localhost/Blogs/public/index.php/Admin/Admin/article_list?biao=article_qian [运行时间：0.033981s][吞吐率：29.43req/s] [内存消耗：2,808.23kb] [文件加载：52]
+[ info ] [ LANG ] D:\wamp\www\Blogs\thinkphp\lang\zh-cn.php
+[ info ] [ ROUTE ] array (
+  'type' => 'module',
+  'module' => 
+  array (
+    0 => 'Admin',
+    1 => 'Admin',
+    2 => 'article_list',
+  ),
+)
+[ info ] [ HEADER ] array (
+  'host' => 'localhost',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+  'user-agent' => 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.10 Safari/537.36',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8',
+  'referer' => 'http://localhost/Blogs/public/index.php/Admin/Index/menu.html',
+  'accept-encoding' => 'gzip, deflate, br',
+  'accept-language' => 'zh-CN,zh;q=0.8',
+)
+[ info ] [ PARAM ] array (
+  'biao' => 'article_qian',
+)
+[ info ] [ RUN ] app\Admin\controller\Admin->article_list[ D:\wamp\www\Blogs\application\admin\controller\Admin.php ]
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] D:\wamp\www\Blogs\public/../application/admin\view\admin\article_list.html [ array (
+  0 => 'biao',
+  1 => 'Info',
+) ]
+[ info ] [ LOG ] INIT File
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000864s ] mysql:host=127.0.0.1;dbname=blogs;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article_qian` [ RunTime:0.003510s ]
+[ sql ] [ SQL ] SELECT * FROM `article_qian` [ RunTime:0.000394s ]

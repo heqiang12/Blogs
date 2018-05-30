@@ -1,0 +1,247 @@
+body{margin: 0;padding: 0}
+/*头部*/
+.header{
+    width: 100%;
+    height: 120px;
+    /*background: red;*/
+    position: relative;
+}
+.header p{
+    font-size: 35px;
+    position: absolute;
+    left:400px;
+    top:-10px;
+}
+.header span{
+    position: absolute;
+    font-size: 18px;
+    left:500px;
+    top:75px;
+}
+.con{
+    background-color: #f6f6f6;
+}
+/*主体main*/
+.main{
+    width: 1200px;
+    height: 1080px;
+    margin: 0 auto;
+    /*颜色 蓝*/
+    /*background: blue;*/
+    position: relative;
+}
+.main ul{
+    margin-top: 0;
+    padding-left: 0;
+    list-style: none;
+    width: 100%;
+}
+.main li{
+
+    float: left;
+    width: 164px;
+    height: 40px;
+    border-right: 1px solid white;
+    text-align: center;
+    /*cursor: pointer;*/
+}
+.uli{
+    background-color: #424242;
+}
+.uli a{
+    color:white;
+}
+.uli2{
+    background-color: #1C1C1C;
+}
+.uli2 a{
+    color:#f25d03;
+}
+.main li:last-child{
+    border:none;
+    width:165px;
+
+}
+.main li a{
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 38px;
+    width: 164px;
+    height: 40px;
+    display: block;
+}
+
+/*main 左*/
+.main_left{
+    position: absolute;
+    top: 40px;
+    width: 850px;
+    height: 700px;
+    /*background-color: white;*/
+}
+.main_left_zx{
+    display: block;
+    width: 90px;
+    height: 32px;
+    background-color: #424242;
+    font-size: 16px;
+    color:white;
+    text-align: center;
+    line-height: 30px;
+    margin-bottom: 2px;
+}
+
+.main_left_article{
+    width:848px;
+    height: 150px;
+    background-color: white;
+    border:1px solid #BDBDBD;
+    /*border-top: 0;*/
+    /*border-radius: 5px;*/
+    padding-top:15px;
+    padding-bottom: 25px;
+    margin-bottom: -1px;
+}
+/*.main_left_article_show{*/
+    /*width:848px;*/
+    /*background-color: white;*/
+    /*border:1px solid #BDBDBD;*/
+    /*padding-top:15px;*/
+    /*padding-bottom: 25px;*/
+    /*margin-bottom: -1px;*/
+/*}*/
+.main_left_h{
+    margin-top: 0;
+}
+.main_left_h a{
+    text-decoration: none;
+    color:#424242;
+}
+.main_left_h a:hover{
+    color:#0489B1;
+}
+.main_left_p{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    height: 80px;
+}
+
+/*博主信息*/
+.main_right_bozhu{
+    position: relative;
+    width: 250px;
+    height: 160px;
+    border:1px solid #BDBDBD;
+    left: 950px;
+    top: 90px;
+    background-color: white;
+}
+.main_right_bxinxi{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: #424242;
+    color: white;
+    top: -25px;
+    margin-left: -1px;
+    line-height: 25px;
+    text-align: center;
+}
+.main_right_x{
+    display: block;
+    margin-top: 45px;
+    line-height: 5px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+.main_right_xx{
+    display: block;
+    margin-top:25px;
+    line-height: 5px;
+    text-indent: 2em;
+    font-size: 14px;
+}
+/*热门推荐*/
+.main_right_re{
+    position: relative;
+    width: 250px;
+    height: 205px;
+    border:1px solid #BDBDBD;
+    left:950px;
+    top: 118px;
+    right: 0px;
+    background-color: white;
+}
+.main_right_tui{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    background-color: #424242;
+    color: white;
+    top: -25px;
+    margin-left: -1px;
+    line-height: 25px;
+    text-align: center;
+}
+.main_right_ul{
+    position: absolute;
+    top: 30px;
+}
+.main_right_ul li{
+    display: block;
+    width: 249px;
+    height: 35px;
+    /*line-height: 10px;*/
+    /*display: inline-block;*/
+
+}
+.main_right_licss{
+    background-color: #EFFBF5;
+}
+.main_right_ul li a{
+    display: inline-block;
+    width: 180px;
+    height: 35px;
+    float: left;
+    text-align: left;
+    margin-left: 0px;
+    /*background-color: yellow;*/
+    font-size: 16px;
+    text-decoration: none;
+    color:black;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
+}
+.main_right_ul_span{
+    /*float: right;*/
+    font-size: 12px;
+    line-height: 35px;
+}
+.main_right_span1{
+    float: left;
+    display: inline-block;
+    width: 30px;
+    line-height: 40px;
+}
+
+.main_right_botui{
+
+    position: relative;
+    width: 250px;
+    height: 205px;
+    border:1px solid #BDBDBD;
+    left:950px;
+    top: 145px;
+    right: 0px;
+    background-color: white;
+}
+.main_left_fenye{
+    text-align: center;
+}
+.bootom{
+    text-align: center;
+    font-size: 14px;
+}

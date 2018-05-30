@@ -1,0 +1,11 @@
+body{background: #FFFFFF}
+ul{list-style: none}
+.vo_title{font-size:20px;margin-bottom: -30px;}
+.vo_con{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+    line-height: 20px;height: 120px;}
+li{line-height: 30px;}
+.clicks{margin-left: 20px;}
