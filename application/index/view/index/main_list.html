@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>列表</title>
+    <link rel="stylesheet" href="_CSS_/parse.css" >
+    <link rel="stylesheet" href="_CSS_/qianlist.css" >
+</head>
+<body>
+    <ul>
+        {volist name="Info" id="vo"}
+        <li class="vo_title">{$vo.arti_title}</li>
+        <li class="vo_con"><p>{$vo.arti_contents}</p></li>
+        <li>{$vo.ad_time}<spqn class="clicks">阅读：</spqn>{$vo.clicksum}</li>
+        {/volist}
+    </ul>
+</body>
+</html>
