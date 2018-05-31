@@ -14,7 +14,7 @@ return [
     'type'            => 'mysql',
     // 服务器地址
     // 'hostname'        => 'qdm164123688.my3w.com',
-       'hostname'        => '127.0.0.1',
+       'hostname'        => '8.9.6.220',
     // 数据库名
     // 'database'        => 'qdm164123688_db',
        'database'        => 'blogs',
@@ -23,7 +23,7 @@ return [
        'username'        => 'root',
     // 密码
     // 'password'        => '084418wshq',
-       'password'        => '',
+       'password'        => 'root',
     // 端口
     'hostport'        => '',
     // 连接dsn
