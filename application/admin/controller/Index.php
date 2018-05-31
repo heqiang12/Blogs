@@ -43,7 +43,7 @@ class Index extends Controller
             if($z){
                 Session::set("name",$name);
                 Session::set("pwd",$pwd);
-                return view("Index/index");
+                return view("index/index");
             }else{
                 return view();
             }
