@@ -84,7 +84,7 @@ class Index extends Controller
                     break;
             }
         }
-//        dump($z);
+        dump($a);
         $tui=Db::table("tuijian")->limit(5)->select();
 
         for($i=0;$i<count($tui);$i++){
