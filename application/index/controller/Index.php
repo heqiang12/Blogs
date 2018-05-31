@@ -153,7 +153,7 @@ class Index extends Controller
                     $a[$i]["leia"]="article_linux";
                     break;
                 case "mysql":
-                    $z[$i]["leia"]="article_mysql";
+                    $a[$i]["leia"]="article_mysql";
                     break;
                 case "php":
                     $a[$i]["leia"]="article_php";
@@ -220,7 +220,7 @@ class Index extends Controller
                     $a[$i]["leia"]="article_linux";
                     break;
                 case "mysql":
-                    $z[$i]["leia"]="article_mysql";
+                    $a[$i]["leia"]="article_mysql";
                     break;
                 case "php":
                     $a[$i]["leia"]="article_php";
