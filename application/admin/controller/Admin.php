@@ -95,7 +95,7 @@ class Admin extends \think\Controller
                     break;
             }
             $date=date("Y-m-d H:i");
-            $da=["arti_title"=>$data["arti_title"],"arti_contents"=>$data["arti_contents"],"ad_time"=>$date,"lei"=>$lei];
+            $da=["arti_title"=>$data["arti_title"],"arti_contents"=>$data["arti_contents"],"ad_time"=>$date,"lei"=>$lei,"clicksum"=>0];
             $z=Db::table($biao)->insert($da);
             if($z){
                 return("success");
