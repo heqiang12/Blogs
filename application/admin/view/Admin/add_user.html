@@ -13,7 +13,6 @@ $(function(){
         $(".span-name").hide("3000");
     }else{
         $(".span-name").show("3000").css("color","red").css("text-indent","1em");
-        
     }
   });
 
@@ -50,38 +49,34 @@ $(function(){
   });
 
 })
-
-  function formpost(){
-    var phone=$(".span-phone").is(":visible");
-    var name=$(".span-name").is(":visible");
-    var email=$(".span-email").is(":visible");
-    if(phone||name||email||$("#admin_phone").val()==""||$("#admin_name").val()==""||$("#admin_email").val()==""){
-      alert("抱歉！您填写的信息格式有误！");
-    }else{
-      var formdata= $("#myform").serialize();
-    $.ajax(
-        {
-          type:"post",
-          url:"{:url('Admin/add_user')}",
-          dataType:"json",
-          data:formdata,
-          success:function(data){
-            if(data=="success"){
-              alert("添加成功！");
-            }else{
-              alert("添加失败！");
-            }
-           // console.log(data);
-           
+function formpost(){
+  var phone=$(".span-phone").is(":visible");
+  var name=$(".span-name").is(":visible");
+  var email=$(".span-email").is(":visible");
+  if(phone||name||email||$("#admin_phone").val()==""||$("#admin_name").val()==""||$("#admin_email").val()==""){
+    alert("抱歉！您填写的信息格式有误！");
+  }else{
+    var formdata= $("#myform").serialize();
+  $.ajax(
+      {
+        type:"post",
+        url:"{:url('Admin/add_user')}",
+        dataType:"json",
+        data:formdata,
+        success:function(data){
+          if(data=="success"){
+            alert("添加成功！");
+          }else{
+            alert("添加失败！");
           }
+         // console.log(data);
+         
         }
-      );
+      }
+    );
+}
   }
-    }
 
-    
-
-  
 </script>
 </head>
 <body>
@@ -117,6 +112,3 @@ $(function(){
  </div>
 </body>
 </html>
-
-
-

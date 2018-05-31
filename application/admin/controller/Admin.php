@@ -10,21 +10,17 @@ class Admin extends \think\Controller
 {
     public function add_user()
     {
-        
         if(Request::instance()->post()){
         	$data=Request::instance()->post();
         	$da=Db::table("admin")->insert($data);
     	if($da){
-
     		return ("success");
     	}else{
     		return ("error");
     	}
         }
-    	
         return view();
     }
-
     public function privilege(){
         if(Request::instance()->post()){
             $data=Request::instance()->post();
@@ -59,7 +55,6 @@ class Admin extends \think\Controller
         }else{
             return("wu");
         }
-
     }
     public function privilege_delete(){
         if(Request::instance()->post()){
@@ -74,7 +69,6 @@ class Admin extends \think\Controller
         }else{
             return("wu");
         }
-
     }
     public function add_article(){
         if(Request::instance()->post()){
@@ -137,8 +131,6 @@ class Admin extends \think\Controller
             $this->assign("biao",$biao);
             $this->assign("Info",$data);
             return view("article_list");
-
-
     }
 //    ajax分页
     public function ajax_rel(){
@@ -193,7 +185,6 @@ class Admin extends \think\Controller
         }
     }
     public function hui_article($biao){
-
             $z=Db::table($biao)->where("de_time","not null")->paginate(3,false,['type'=>'Ajaxpage']);
 //        for($i=0;$i<count($z);$i++){
 //            $z[$i]["arti_contents"] = substr($z[$i]["arti_contents"],0,80);
@@ -201,7 +192,6 @@ class Admin extends \think\Controller
             $this->assign("Info",$z);
             $this->assign("biaoname",$biao);
             return view();
-
     }
     //    ajax分页
     public function ajax_rell(){
@@ -293,7 +283,6 @@ class Admin extends \think\Controller
 //                    不一致
                     return("新旧密码不一致！");
                 }
-
             }else{
 //                新密码为空，密码不做修改
                 $a=Db::table("admin")->update([
@@ -316,7 +305,6 @@ class Admin extends \think\Controller
         }
 
     }
-
     public function login(){
         $username=$_POST["username"];
         $userpwd=$_POST["userpwd"];
@@ -337,5 +325,4 @@ class Admin extends \think\Controller
             return ("error");
         }
     }
-
 }
